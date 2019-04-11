@@ -1,6 +1,6 @@
 # Meteor Vue starter
 
-A starter template for using Vue and Vuetify with Meteor
+A simple starter template for using Vue and Vuetify with Meteor
 
 ### Prerequisites
 
