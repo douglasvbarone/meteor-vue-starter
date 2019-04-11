@@ -1,6 +1,6 @@
 <template>
     <div style="max-width: 640px; margin: auto">
-        <v-card class="mb-5">
+        <v-card class="mb-2">
 
             <v-card-title class="primary white--text headline">
                 An example of Vue with Meteor reactivity
@@ -23,7 +23,7 @@
         <v-card>
 
             <v-card-text v-if="allExamples.length">
-                <transition-group name="fade-transition" mode="out-in">
+                <transition-group name="slide-y-transition" mode="out-in">
                     <v-chip color="primary"
                             outline
                             @click="onRemoveExample(example._id)" v-for="example in allExamples" :key="example._id">
@@ -84,5 +84,4 @@
 </script>
 
 <style scoped>
-
 </style>
