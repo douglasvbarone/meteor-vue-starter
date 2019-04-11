@@ -4,7 +4,6 @@ import Vuetify from 'vuetify'
 import VueMeteorTracker from 'vue-meteor-tracker'
 
 import 'vuetify/dist/vuetify.min.css'
-// import 'material-design-icons-iconfont/dist/material-design-icons.css'
 
 import {router} from '../imports/router'
 

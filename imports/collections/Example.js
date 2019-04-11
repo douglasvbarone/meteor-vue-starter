@@ -16,5 +16,8 @@ Meteor.methods({
     },
     'example.remove'(_id){
         Example.remove(_id)
+    },
+    'example.removeAll'(){
+        Example.remove({})
     }
 })

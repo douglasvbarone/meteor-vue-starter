@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.3.4",
-    "material-design-icons-iconfont": "^4.0.5",
     "meteor-node-stubs": "^0.4.1",
     "vue": "^2.6.10",
     "vue-meteor-tracker": "^2.0.0-beta.5",
@@ -22,5 +21,8 @@
       "server": "server/main.js"
     },
     "testModule": "tests/main.js"
+  },
+  "devDependencies": {
+    "material-design-icons-iconfont": "^4.0.5"
   }
 }
